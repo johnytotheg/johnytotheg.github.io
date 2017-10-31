@@ -52,13 +52,28 @@ h1, h3 {
 .grey-background {
 	padding: 100px 0;
 	background: #F4F3F3;
-	height: 960px;
+	height: 640px;
+}
+
+.multiple-images {
+	padding: 100px 0;
+}
+
+#collage {
+	padding-top: 100%;
+	background-color: rgb(252, 232, 225);
 }
 
 .pink-background {
-	padding: 100px 0;
+	height: 100vh;
+}
+
+.pink {
 	background: #FCE8E1;
-	height: 960px;	
+}
+
+.dark-pink {
+	background-color: #d4b4a8;
 }
 
 .boy-painting {
@@ -81,26 +96,54 @@ h1, h3 {
 }
 
 .dog-painting {
-	z-index: 2;
-	margin-top: -300px;
-	position: absolute;
+	position: relative;
+}
+
+.slide-image {
+
 }
 
 .selling-points {
-background: white;
     /* position: absolute; */
-    padding: 30px;
+    padding: 262px 30px;
     /* right: 80px; */
     padding-left: 100px;
     max-width: 519px;
-    margin-top: -125px;
     /* float: right; */
     margin-left: 606px;
+    position: absolute;
+    top: 30px;
+    height: 90vh;
 
 }
 
+.points1, .points3 {
+	background: #FCE8E1;
+}
+
+.points2 {
+	background: #B5E3F2;
+}
+
+	#pinContainer {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	.panel {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		background-color: purple;
+	}
 
 
+#img1, #img2, #img3 {
+	position: absolute;
+	top: 50px;
+	z-index: 1;
+	opacity: 0;
+}
 
 
 .sticky-container {
@@ -108,7 +151,21 @@ background: white;
 }
 
 
+.green {
+	background-color: green;
+}
 
+.blue {
+	background-color: blue;
+}
+
+.turquoise {
+	background-color: red;
+}
+
+.bordeaux {
+	background-color: purple;
+}
 
 .stuck {
   position:fixed;
